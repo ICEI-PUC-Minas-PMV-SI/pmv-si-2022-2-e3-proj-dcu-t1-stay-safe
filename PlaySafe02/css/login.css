@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@200&display=swap');
+
+
+
+.img_login{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 110%;
+} 
+.capa_img{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 75.85%;
+    background: linear-gradient(to top, #12286491 0%, #4baffc85 100%);
+}
+.titulo{
+    display: flex;
+    position: absolute;
+    top: 24%;
+    left: 9%;
+    font-family: 'Monoton', cursive;
+    font-size: 70px;
+    background: -webkit-linear-gradient(left, #3F49D0 0%, #525bdb 100%);
+    background: linear-gradient(to right, #3F49D0 0%, #525bdb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+}
+.logo{
+    display: flex;
+    position: absolute;
+    top: 33%;
+    left: 40%;
+    width: 100px;
+}
+.slogan{
+    position: absolute;
+    top: 43%;
+    left: 10%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    cursor: default;
+}
+.slogan::after {
+    content: '|';
+    opacity: 1;
+    margin-left: 1px;
+    display: inline-block;
+    animation: blink .7s infinite;
+}
+@keyframes blink {
+    0%, 100%{
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+}
+.box_login{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 390px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 40px #00124293;
+}
+.txt_login{
+    position: absolute;
+    top: 60px;
+    left: 35%;
+    display: flex;
+    font-size: 40px;
+    cursor: default;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #3E47CD;
+}
+.email{
+    position: absolute;
+    top: 180px;
+    left: 9%;
+    outline: none;
+    background: #1a386018;
+    color: #797979;
+    transition: 0.40s;
+    padding: 8px 25px;
+    width: 275px;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.olho1{
+    position: absolute;
+    top: 41.1%;
+    left: 85%;
+    width: 18px;
+    opacity: 40%;
+    cursor: pointer;
+}
+.passwd{
+    position: absolute;
+    top: 250px;
+    left: 9%;
+    outline: none;
+    background: #1a386018;
+    color: #797979;
+    transition: 0.40s;
+    padding: 8px 25px;
+    width: 275px;
+    border: solid 1px transparent;
+    border-radius: 5px ;
+    font-size: 15px;
+}
+.continuarLogado{
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    cursor: pointer;
+}
+.txtContinuarLogado{
+    position: absolute;
+    top: 303px;
+    left: 60px;
+    font-size: 12px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #797979;
+}
+.recuperarSenha{
+    position: absolute;
+    top: 303px;
+    left: 260px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #29479b;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.entrar{
+    position: absolute;
+    top: 380px;
+    left: 25%;
+    font-size: 16px;
+    padding: 17px 80px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    background: #3E47CD;
+    cursor: pointer;
+}
+
+.cadastrar{
+    position: absolute;
+    top: 490px;
+    left: 27%;
+    padding: 10px 50px;
+    font-size: 16px;
+    color: #3E47CD;
+    border: 2px solid #20E8F4;
+    border-radius: 5px;
+    background: transparent;
+    font-family: 'Montserrat Alternates', sans-serif;
+    cursor: pointer;
+}
+.menu{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #3E47CD;
+    width: 100%;
+    height: 55px;
+}
+.logoMenu{
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    width: 55px;
+    filter: sepia(60%);
+    cursor: pointer;
+}
+.perfilDoUsuario{
+    position: absolute;
+    left: 95%;
+    top: 5%;
+    width: 50px;
+}
+#linksMenu{
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+.inicio{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+.forum{
+    position: absolute;
+    top: 30%;
+    left: 58%;
+}
+.musica{
+    position: absolute;
+    top: 30%;
+    left: 67%;
+}
+.doacao{
+    position: absolute;
+    top: 30%;
+    left: 76%;
+}
+.entrarr{
+    position: absolute;
+    top: 0%;
+    left: 86.65%;
+    background: #20E8F4;
+    color: #29479b;
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    padding: 17px 53px;
+}
+.error{
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 17px;
+    padding: 1px 20px;
+    color: #fdaeae;
+    background: #f34646;
+    border-radius: 5px;
+    box-shadow: 0px 5px 40px #42001f93;
+    animation: animaFechar .4s;
+}
+.fecharError{
+    position: absolute;
+    left: 93%;
+    top: 7%;
+    font-size: 13px;
+    color: #f34646;
+    background: #fdaeae;
+    padding: 0px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+@keyframes animaFechar{
+    from {
+        opacity: 0;
+        transform: translate(0, 60, 0);
+        top: 6%;
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0, 0);
+    }
+}

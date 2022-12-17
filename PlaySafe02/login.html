@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>StaySafe | Login/Cadastro</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <img class="img_login" src="img/music-gb498f285b_1920.jpg" alt="">
+    <div class="capa_img"></div>
+    <h1 class="titulo">StaySafe</h1>
+    <h2 class="slogan" id="slogan"></h2> 
+    <img class="logo" src="img/Logo002.png" alt="">
+    <div class="box_login">
+        <form action="">
+            <h2 class="txt_login">Login</h2>
+            <input type="email" class="email" id="email" placeholder="E-mail" maxlength="64">
+           
+            
+            <input type="password" class="passwd" id="passwd" placeholder="Senha" maxlength="28">
+            <img id="eyeSvg" class="olho1" onclick="eyeClick()" src="img/olhoFechado.png" alt="">
+            
+            <div class="txtContinuarLogado" id="txtContinuarLogado">Continuar Logado</div>
+            <input type="checkbox" class="continuarLogado" id="continuarLogado">
+            
+            <a href="" class="recuperarSenha" id="recuperarSenha">Recuperar Senha</a>
+            <button class="entrar" id="entrar" onclick="entrarr()" type="button">Entrar</button>
+            
+            <button class="cadastrar" id="cadastrar" type="button">Cadastre-se</button>
+        </form>
+    </div>
+    
+    <div class="menu">
+        <a href="inicio.html"><img class="logoMenu" src="img/Logo05.png" alt=""></a>
+        <a id="linksMenu" class="inicio" href="inicio.html">INÍCIO</a>
+        <a id="linksMenu" class="forum" href="forum.html">FÓRUM</a>
+        <a id="linksMenu" class="musica" href="musica.html">MÚSICA</a>
+        <a id="linksMenu" class="doacao" href="doacao.html">DOAÇÃO</a>
+        <a id="linksMenuu" class="entrarr" href="login.html">ENTRAR</a>
+    </div>
+
+
+    <div class="capa_cadastro" id="capa_cadastro"></div>
+        <div class="cadastro1" id="cadastro1">
+            <button class="fechar1" id="fechar1"><strong>X</strong></button>
+
+            <h2 class="txtTipoDeUser">Tipo de Usuário</h2>
+
+            <input class="psicologoComum" id="card" type="radio" onchange="user()" value="cuidador" name="tipoUsuario">
+            <label class="psicologo" id="tipoDeUser" for="card">
+                <img class="imgPsicologo" src="img/psicologa-removebg-preview.png" alt="">
+                <span>Profissional</span>
+            </label>
+
+            <input class="psicologoComum" id="cash" type="radio" onchange="user()" value="cuidador" name="tipoUsuario">
+            <label class="comum" id="tipoDeUser" for="cash">
+                <img class="imgUser" src="img/paciente-removebg-preview.png" alt="">
+                <span>Comum</span>
+            </label>
+        </div>
+
+        <div class="error" id="error">
+            <div class="fecharError" id="fecharError">x</div>
+            <p><strong>Usuário ou senha incorrentos</strong></p>
+        </div>
+        <div class="cadastroPsicologo" id="cadastroPsicologo">
+            <button class="fechar2" id="fechar2"><strong>X</strong></button>
+            <button class="voltar1" id="voltar1"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+
+            <h2 class="txtCadastroPsicologo">Cadastro</h2>
+            
+            <input type="text" class="nomeCadastroPsicologo" id="nomeCadastroPsicologo" placeholder="Nome" maxlength="32">
+            <label for="" class="labelNome" id="labelNome">*Insira no minimo 3 caracteres</label>
+            <img src="" class="certificacaoNome" id="certificacaoNome" alt="">
+            
+            <input type="text" class="sobrenomeCadastroPsicologo" id="sobrenomeCadastroPsicologo" placeholder="Sobrenome" maxlength="32">
+            <label for="" class="labelSobrenome" id="labelSobrenome">*Insira no minimo 4 caracteres</label>
+            <img src="" class="certificacaoSobrenome" id="certificacaoSobrenome" alt="">
+            
+            <input type="email" class="emailCadastroPsicologo" id="emailCadastroPsicologo" placeholder="E-mail" maxlength="64">
+            <label for="" class="labelEmail" id="labelEmail">*Email invaido</label>
+            <img src="" class="certificacaoEmail" id="certificacaoEmail" alt="">
+
+            <input type="password" class="senhaCadastroPsicologo" id="senhaCadastroPsicologo" placeholder="Senha" maxlength="28">
+            <img id="eyeSvg2" class="olho2" onclick="eyeClick2()" src="img/olhoFechado.png" alt="">
+            <label for="" class="labelSenha" id="labelSenha">*Senha é Fraca</label>
+            <img src="" class="certificacaoSenha" id="certificacaoSenha" alt="">
+
+            <input type="password" class="confirmarSenhaCadastroPsicologo" id="confirmarSenhaCadastroPsicologo" placeholder="Confirme a Senha" maxlength="28">
+            <img id="eyeSvg3" class="olho3" onclick="eyeClick3()" src="img/olhoFechado.png" alt="">
+            <label for="" class="labelConfirmarSenha" id="labelConfirmarSenha">*As senhas não conferem</label>
+            <img src="" class="certificacaoConfirmarSenha" id="certificacaoConfirmarSenha" alt="">
+
+            <div class="txtGeneroPsicologo" id="txtGeneroPsicologo">Gênero</div>
+            <img src="" class="certificacaoGenero" id="certificacaoGenero" alt="">
+
+            <div class="feme">
+                <input class="generoPsicologo"  type="radio"  onchange="genero()" name="sexo" id="fema" value="feminino">
+                <label class="pf" id="gp" for="fema">
+                    <span class="spangp">Feminino</span>
+                </label>       
+            </div>
+
+            <div class="masc">
+                <input class="generoPsicologo" type="radio"  onchange="genero()" name="sexo" id="male" value="masculino">
+                <label class="pm" id="gp" for="male">
+                    <span class="spangp">Masculino</span>
+                </label>       
+            </div>
+
+            <div class="outr">
+                <input class="generoPsicologo" type="radio"  onchange="genero()" name="sexo" id="ou" value="outro">
+                <label class="po" id="gp" for="ou">
+                    <span class="spangp">Não Binário</span>
+                </label> 
+            </div>
+
+            
+            <div class="txtDataPsicologo" id="txtDataPsicologo">Data de Nascimento</div>
+            <input onchange="validardataDeNascimento(this.value);" type="date" class="dataPsicologo" id="dataPsicologo">
+            <img src="" class="certificacaoData" id="certificacaoData" alt="">
+            
+            <input type="text" class="documentoDoPsicologo" id="documentoDoPsicologo" placeholder="CRP ou CRM" maxlength="10">
+            <label for="" class="labelCrm" id="labelCrm">CRP/CRM não encontrados</label>
+            <img src="" class="certificacaoCrm" id="certificacaoCrm" alt="">
+            
+            <button class="cadastrarPsicologo" id="cadastrarPsicologo"  onclick="cadastrarr()">Cadastrar</button>
+        </div>
+
+        <div class="sucesso1" id="sucesso1">
+            <img class="imgSucesso" src="img/valid.png" alt="">
+            <div class="txtSucesso">Cadastro Concluido</div>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+    <script src="js/cadastro.js"></script>
+</body>
+</html>

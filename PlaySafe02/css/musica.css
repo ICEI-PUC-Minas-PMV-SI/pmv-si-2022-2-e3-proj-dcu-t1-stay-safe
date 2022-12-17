@@ -1,0 +1,97 @@
+.tituloMusica{
+    position: absolute;
+    top: 80px;
+    left: 44%;
+    display: flex;
+    font-size: 40px;
+    cursor: default;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #3E47CD;
+}
+.txtMusica{
+    position: absolute;
+    top: 200px;
+    left: 16%;
+    text-align: justify;
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 850px;
+}
+.subtitulosMusica{
+    position: absolute;
+    top: 400px;
+    left: 11%;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #3E47CD;
+}
+
+.card{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    width: 300px;
+    height: 180px;
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid #20E8F4;
+    transition: .4s;
+}
+.card:hover{
+    box-shadow: -3px 3px 10px #00124293;
+}
+.imgCard{
+    width: 300px;
+    height: 140px;
+    border-radius: 20px 20px 0px 0;
+    border-bottom: 2px solid #20E8F4;
+}
+.acessaCard{
+    position: absolute;
+    left: 40%;
+    top: 82%;
+    color: #ffffff;
+    background: #3E47CD;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+.acessaCard:hover{
+    box-shadow: -3px 3px 10px #00124293;
+}
+#card2{
+    left: 40%;
+}
+#card3{
+    left: 70%;
+}
+#card4{
+    top: 135%;
+    left: 10%;
+}
+#card5{
+    top: 135%;
+    left: 40%;
+}
+#card6{
+    top: 135%;
+    left: 70%;
+}
+.verMais{
+    position: absolute;
+    top: 180%;
+    left: 48%;
+    color: #ffffff;
+    background: #3E47CD;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 14px 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+.verMais:hover{
+    box-shadow: -3px 3px 10px #00124293;
+}
