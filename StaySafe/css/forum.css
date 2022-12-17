@@ -1,0 +1,279 @@
+.tituloForum{
+    position: absolute;
+    top: 80px;
+    left: 40%;
+    display: flex;
+    font-size: 40px;
+    cursor: default;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #3E47CD;
+}
+.caixaForum{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    width: 96%;
+    height: 1030px; 
+    background: transparent;
+    border-radius: 20px;
+    box-shadow: -3px 3px 10px #00124293;
+}
+.botaoAnsiedade{
+    position: absolute;
+    left: 29%;
+    top: 2%;
+    color: #3E47CD;
+    background: transparent;
+    font-size: 16px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 7px 60px;
+    border-radius: 10px;
+    box-shadow: -2px 2px 10px #00124293;
+    border: 2px solid #20E8F4;
+    cursor: pointer;
+    transition: .4s;
+}
+.botaoDepressao{
+    position: absolute;
+    left: 58%;
+    top: 2%;
+    color: #3E47CD;
+    background: transparent;
+    font-size: 16px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 7px 60px;
+    border-radius: 10px;
+    box-shadow: -2px 2px 10px #00124293;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: .4s;
+}
+.linhaForum{
+    position: absolute;
+    top: 8%;
+    width: 100%;
+    height: 2px;
+    background: #c9c9c9;
+}
+.criarTopico{
+    position: absolute;
+    left: 4%;
+    top: 10%;
+    color: #ffffff;
+    background: #3E47CD;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+.criarTopico:hover{
+    box-shadow: -3px 3px 10px #00124293;
+}
+.pesquisar{
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    outline: none;
+    width: 300px;
+    background: #1a386018;
+    color: #797979;  /* #1a386018 */
+    transition: 0.40s;
+    padding: 6px 30px;
+    border: solid 0px transparent;
+    border-radius: 5px 0px 0px 5px; 
+    font-size: 15px;
+}
+.botaoPesquisar{
+    position: absolute;
+    right: 4%;
+    top: 10%;
+    color: #ffffff;
+    background: #3E47CD;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 7px 10px;
+    border-radius: 0px 5px 5px 0px; 
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+.barraForum{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    height: 40px;
+    background: #3E47CD;
+    color: #ffffff;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+}
+.topico{
+    position: absolute;
+    top: -30%;
+    left: 2%;
+}
+.mensagens{
+    position: absolute;
+    top: -30%;
+    left: 60%;
+}
+.ultMensagens{
+    position: absolute;
+    top: -30%;
+    right: 2%;
+}
+
+.apresentacao{
+    position: absolute;
+    top: 22%;
+    left: 2%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 550px;
+}
+.linkApresentacao{
+    font-size: 20px;
+    color: #3E47CD;
+}
+.mensagemApresentacao{
+    position: absolute;
+    top: -10%;
+    left: 137%;
+}
+.geral{
+    position: absolute;
+    top: 34%;
+    left: 2%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 550px;
+}
+.linkGeral{
+    font-size: 20px;
+    color: #3E47CD;
+}
+.mensagemGeral{
+    position: absolute;
+    top: -10%;
+    left: 137%;
+}
+.duvidas{
+    position: absolute;
+    top: 44%;
+    left: 2%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 550px;
+}
+.linkDuvidas{
+    font-size: 20px;
+    color: #3E47CD;
+}
+.mensagemDuvidas{
+    position: absolute;
+    top: -10%;
+    left: 137%;
+}
+.noticias{
+    position: absolute;
+    top: 54%;
+    left: 2%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 550px;
+}
+.linkNoticias{
+    font-size: 20px;
+    color: #3E47CD;
+}
+.mensagemNoticias{
+    position: absolute;
+    top: -10%;
+    left: 137%;
+}
+.controlando{
+    position: absolute;
+    top: 64%;
+    left: 2%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 550px;
+}
+.linkControlando{
+    font-size: 20px;
+    color: #3E47CD;
+}
+.mensagemControlando{
+    position: absolute;
+    top: -10%;
+    left: 137%;
+}
+.sintomas{
+    position: absolute;
+    top: 74%;
+    left: 2%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 550px;
+}
+.linkSintomas{
+    font-size: 20px;
+    color: #3E47CD;
+}
+.mensagemSintomas{
+    position: absolute;
+    top: -10%;
+    left: 137%;
+}
+.ultmens{
+    width: 165px;
+    text-align: center;
+    position: absolute;
+    top: -10%;
+    left: 190%;
+}
+.verMais{
+    position: absolute;
+    left: 46.5%;
+    top: 87%;
+    color: #ffffff;
+    background: #3E47CD;
+    font-size: 16px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+.verMais:hover{
+    box-shadow: -3px 3px 10px #00124293;
+}
+#rodape1{
+    position: absolute;
+    top: 77.5%;
+}
+.precisaEstarLogado{
+    position: absolute;
+    top: 18%;
+    left: 17%;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #3E47CD;
+    cursor: default;
+    text-align: center;
+}
+.entrarPrecisaEstarLogado{
+    position: absolute;
+    top: 170px;
+    left: 43%;
+    font-size: 16px;
+    padding: 15px 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    background: #3E47CD;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .4s;
+}
+.entrarPrecisaEstarLogado:hover{
+    box-shadow: -3px 3px 10px #00124293;
+}

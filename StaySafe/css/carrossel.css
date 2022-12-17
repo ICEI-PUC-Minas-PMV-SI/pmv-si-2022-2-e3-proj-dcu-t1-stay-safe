@@ -1,0 +1,294 @@
+.carrossel{
+    position: absolute;
+    top: 15%;
+    left: 12.5%;
+    width: 1000px;
+    height: 500px;
+    border-radius: 20px;
+}
+.marcacao{
+    width: 70px;
+    height: 2px;
+    border: solid 3px #3E47CD;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#marcacao1{
+    background: #3E47CD;
+    position: absolute;
+    top: 104%;
+    left: 35%;
+}
+#marcacao2{
+    background: transparent;
+    position: absolute;
+    top: 104%;
+    left: 45%;
+}
+#marcacao3{
+    position: absolute;
+    top: 104%;
+    left: 55%;
+}
+
+
+.esquerda{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    font-size: 30px;
+    border: none;
+    background: transparent;
+    color: #3E47CD;
+    cursor: pointer;
+    transition: 0.40s;
+
+}
+.esquerda:hover{
+    box-shadow: 0px 5px 40px #00124256;
+}
+
+.direita{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    font-size: 30px;
+    border: none;
+    background: transparent;
+    color: #3E47CD;
+    cursor: pointer;
+    transition: 0.40s;
+}
+.direita:hover{
+    box-shadow: 0px 5px 40px #00124256;
+}
+#esquerda1{
+    display: block;
+    position: absolute;
+    top: 39%;
+    left: -13%;
+}
+#esquerda2{
+    display: none;
+    position: absolute;
+    top: 39%;
+    left: -13%;
+}
+#esquerda3{
+    display: none;
+    position: absolute;
+    top: 39%;
+    left: -13%;
+}
+
+#direita1{
+    display: block;
+    position: absolute;
+    top: 39%;
+    right: -13%;
+}
+#direita2{
+    display: none;
+    position: absolute;
+    top: 39%;
+    right: -13%;
+}
+#direita3{
+    display: none;
+    position: absolute;
+    top: 39%;
+    right: -13%;
+}
+.imgCarrossel{
+    display: block;
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    border-radius: 20px;
+    
+}
+.tituloCarrossel{
+    position: absolute;
+    left: 37%;
+    top: -10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 35px;
+    color: #3E47CD;
+}
+#tituloCarrossel1{
+    animation: animaCarrossel .4s;
+}
+#tituloCarrossel2{
+    font-size: 40px;
+    top: 15%;
+    left: 70%;
+    animation: animaCarrossel5 .4s;
+}
+#tituloCarrossel3{
+    font-size: 40px;
+    top: 15%;
+    left: 4%;
+    animation: animaCarrossel5 .4s;
+}
+.carrossel1{
+    display: block;
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    background: #c594c5;
+    border-radius: 20px;
+    animation: aparecer .3s;
+}
+.carrossel2{
+    display: none;
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    background: #eca3a3;
+    border-radius: 20px;
+    animation: none;
+    animation: aparecer .3s;
+}
+.carrossel3{
+    display: none;
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    background: #98dbc5;
+    border-radius: 20px;
+    animation: none;
+    animation: aparecer .3s;
+}
+.logoCarrossel{
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    width: 370px;
+}
+#logoCarrossel1{
+    animation: animaCarrossel .4s;
+}
+.botaocarrossel{
+    position: absolute;
+    top: 350px;
+    left: 10%;
+    font-size: 16px;
+    padding: 12px 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    background: #3E47CD;
+    cursor: pointer;
+    transition: .4s;
+}
+.botaocarrossel:hover{
+    box-shadow: 0px 1px 10px #00124293;
+}
+#botaocarrossel1{
+    animation: animaCarrossel3 .4s;
+}
+#botaocarrossel2{
+    left: 77%;
+    animation: animaCarrossel3 .4s;
+    text-decoration: none;
+}
+#botaocarrossel3{
+    animation: animaCarrossel3 .4s;
+    text-decoration: none;
+}
+.caixaTxtCarrossel{
+    position: absolute;
+    top: 25%;
+    left: 2%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #3E47CD;
+    width: 350px;
+    text-align: justify;
+}
+#caixaTxtCarrossel1{
+    animation: animaCarrossel2 .4s;
+}
+#caixaTxtCarrossel2{
+    top: 30%;
+    width: 250px;
+    left: 71%;
+    animation: animaCarrossel .4s;
+}
+#caixaTxtCarrossel3{
+    left: 4%;
+    top: 30%;
+    width: 270px;
+    animation: animaCarrossel2 .4s;
+}
+
+@keyframes animaCarrossel{
+    from {
+        opacity: 0;
+        transform: translate(0, 60, 0);
+        left: 58%;
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0, 0);
+    }
+}
+@keyframes animaCarrossel2{
+    from {
+        opacity: 0;
+        transform: translate(0, 60, 0);
+        left: 8%;
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0, 0);
+    }
+}
+@keyframes animaCarrossel3{
+    from {
+        opacity: 0;
+        transform: translate(0, 60, 0);
+        top: 390px;
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0, 0);
+    }
+}
+@keyframes animaCarrossel4{
+    from {
+        opacity: 0;
+        transform: translate(0, 60, 0);
+        top: 100px;
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0, 0);
+    }
+}
+@keyframes animaCarrossel5{
+    from {
+        opacity: 0;
+        transform: translate(0, 60, 0);
+        top: 5%;
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0, 0);
+    }
+}
+
+
+
+
+@keyframes aparecer{
+    from {
+        transform: translate(0, 60, 0);
+    }
+    to {
+        transform: translate(0, 0, 0);
+    }
+}

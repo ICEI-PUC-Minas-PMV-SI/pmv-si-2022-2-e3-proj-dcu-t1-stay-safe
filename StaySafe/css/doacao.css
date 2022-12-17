@@ -1,0 +1,222 @@
+body{
+    background-color: #F6F3F7;
+}
+
+.espacador{
+    height: 80px;
+    text-align: -30000px;
+}
+
+.container{
+    padding: 0 100px;
+    display: flex;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+.campos{
+    width: 65%;
+}
+
+.passos{
+    height: 60px;
+    background-color: #EDEDED;
+    display: flex;
+    border: solid 1.5px #BDBEBD;
+    border-radius: 5px;
+}
+
+.passo{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-size: 15px;
+    font-family: sans-serif;
+    opacity: 0.5;
+}
+
+.passoAtivo{
+    background-color: white;
+    opacity: 1;
+    color: #619AD2;
+    border-radius: 5px;
+}
+
+.passoAtivo .numeroPasso{
+    background-color: #619AD2;
+}
+
+.numeroPasso{
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 30px;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+}
+
+.form{
+    margin: 30px 0 0 0;
+    padding: 0 30px 0 10px;
+}
+
+.form span{
+    display: block;
+    font-family: sans-serif;
+    color: rgb(64, 59, 59);
+    font-size: 16px;
+}
+
+.form input{
+    width: 100%;
+    height: 35px;
+    border: solid 1.5px #BDBEBD;
+    border-radius: 5px;
+    margin: 10px 5px 30px;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.form input.cpf{
+    width: 200px;
+}
+
+.form input::placeholder{
+    color: gray;
+    opacity: 0.9;
+}
+
+.caixaBotaoProsseguir{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.botaoProsseguir{
+    background-color: #79D25D;
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: solid 1px black;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+.botaoProsseguir:hover{
+    box-shadow: 0px 1px 10px green;    
+}
+
+.valores{
+    width: 35%;
+    padding: 0 30px;
+}
+
+.valoresCont{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    border: solid 1.5px #BDBEBD;
+    border-radius: 5px;
+}
+
+.barraVazia{
+    height: 60px;
+    background-color: #EDEDED;
+    border-bottom: solid 1.5px #BDBEBD;
+    border-radius: 5px 5px 0 0;
+}
+
+.doacaoSegura{
+    width: 200px;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -10px;
+    background-color: #79D25D;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px rgb(75, 129, 75);
+    box-shadow: 1px 1px 1px rgb(75, 129, 75);
+}
+
+.valoresPadrao{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.valorPadrao{
+    padding: 10px;
+    background-color: #E6EDF1;
+    margin: 0 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(104, 103, 103);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.valorPadrao:hover{
+    box-shadow: 0px 1px 5px black;
+}
+
+.caixaCampoValor{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(104, 103, 103);
+}
+
+.caixaCampoValor span{
+    padding: 8px 20px 12px;
+    background-color: #E6EDF1;
+    border-radius: 10px 0 0 10px;
+    font-size: 15px;
+}
+
+.caixaCampoValor input{
+    background-color: #E6EDF1;
+    border-radius: 0 10px 10px 0;
+    border: none;
+}
+
+.linha{
+    width: 80%;
+    border-bottom: solid 2px #BDBEBD;
+    margin: 30px auto;
+}
+
+.mensagemDoacao{
+    width: 90%;
+    font-size: 12px;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.bandeiras img{
+    width: 200px;
+    margin: 0 15px 10px;
+}
+
+.rodape{
+    position: absolute;
+    left: 0;
+    top: auto;
+    width: 100%;
+    height: 130px;
+    background: #3E47CD;
+    border-bottom: 10px solid #20E8F4;
+}
